@@ -8,11 +8,16 @@ CREATE TABLE [IF NOT EXISTS] table_name (
    table_constraints
 );
 ```
-
+## 建立一個student的資料表
 ```sql
 CREATE TABLE IF NOT EXISTS student(
     student_id SERIAL PRIMARY KEY,
     name VARCHAR(20) NOT NULL,
     major VARCHAR(20) UNIQUE
 );
+```
+
+## 刪除一個student的資料表(完全移除資料表及其所有相關物件)
+```sql
+DROP TABLE IF EXISTS student;  
 ```
