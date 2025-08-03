@@ -2,6 +2,7 @@
 #連線至postgres DB
 #建立連線環境參數的樣版
 
+#pip install psycopg2-binary
 import psycopg2
 
 
