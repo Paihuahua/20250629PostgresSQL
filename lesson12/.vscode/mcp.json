@@ -1,0 +1,12 @@
+{
+  "servers": { 
+    "render_postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://postgress_pai_user:FaGPIoegYBBI5CUiafXc34R1vct45JZd@dpg-d2bvoiidbo4c73b885h0-a.singapore-postgres.render.com/postgress_pai?sslmode=require"
+      ]
+    }
+  },
+}
